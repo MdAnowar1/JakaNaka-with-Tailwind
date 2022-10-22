@@ -32,15 +32,29 @@
       </script>
 </head>
 <body>
-    <header class="w-full h-20 flex justify-center">
+    <!-- start header part -->
+    <header class="w-full h-20 flex justify-center absolute bg-white">
         <nav class="w-4/5 flex justify-between items-center font-poppins">
             <h1 class="text-3xl">Jhaka Naka Production</h1>
-            <ul class="flex gap-x-5">
+            <ul class="flex gap-x-5 hidden md:flex">
                 <li class="text-xl">About US </li>
                 <li class="text-xl">Our Movies</li>
                 <li class="text-xl">Services</li>
             </ul>
         </nav>
     </header>
+    <!-- start main section -->
+    <main>
+        <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center">
+            <div class="mx-10 font-poppins text-white">
+                <h5 class="text-2xl">Movie production studio</h5>
+                <h1 class="text-6xl">Films MAde to</h1>
+                <h1 class="text-6xl text-yellow">Perfection</h1>
+                <p class="font-montserrat mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Ut  elit tellus, 
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <button class="text-xl border-2 px-5 py-2 mt-10 hover:bg-yellow hover:text-black hover:border-yellow transition-all">Discover More</button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
